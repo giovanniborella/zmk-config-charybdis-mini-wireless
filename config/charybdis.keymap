@@ -58,7 +58,7 @@
 &kp ESC     &kp Q             &kp W             &kp E               &kp R          &kp T                  &kp Y      &kp U          &kp I               &kp O              &kp P                 &kp LBKT
 &kp TAB     &u_mt LEFT_GUI A  &u_mt LEFT_ALT S  &u_mt LEFT_SHIFT D  &u_mt LCTRL F  &kp G                  &kp H      &u_mt RCTRL J  &u_mt LEFT_SHIFT K  &u_mt RIGHT_ALT L  &u_mt RIGHT_GUI SEMI  &kp APOS
 &kp NUBS    &kp Z             &kp X             &kp C               &kp V          &kp B                  &kp N      &kp M          &kp COMMA           &kp DOT            &kp FSLH              &trans
-                                                &kp ENTER           &lt 1 SPACE    &kp BSPC               &kp BSPC   &lt 2 SPACE
+                                                &kp ENTER           &lt NAV SPACE  &kp BSPC               &kp BSPC   &lt SYMNUM SPACE
             >;
         };
 
@@ -66,7 +66,7 @@
             bindings = <
 &trans      &kp INS           &kp BSPC          &kp UP              &kp DEL        &trans                  &kp GRAVE  &kp N1         &kp N2              &kp N3             &kp N4                &trans
 &trans      &trans            &kp LEFT          &kp DOWN            &kp RIGHT      &trans                  &kp EQUAL  &kp N5         &kp N6              &kp N7             &kp N8                &trans
-&kp C_NEXT  &trans            &trans            &trans              &trans         &trans                  &kp BSLH   &kp N9         &kp N0              &kp MINUS          &NUHS                 &trans
+&kp C_NEXT  &trans            &trans            &trans              &trans         &trans                  &kp BSLH   &kp N9         &kp N0              &kp MINUS          &kp NUHS                 &trans
                                                 &trans              &trans         &trans                  &trans     &trans
             >;
         };
